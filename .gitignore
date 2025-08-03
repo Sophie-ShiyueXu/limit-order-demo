@@ -53,3 +53,5 @@ jest.config.js
 *.tgz
 *.swp
 *.bak
+
+artifacts/
