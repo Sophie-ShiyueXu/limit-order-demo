@@ -1,0 +1,37 @@
+{
+  "order": {
+    "extension": {
+      "makerAssetSuffix": "0x",
+      "takerAssetSuffix": "0x",
+      "makingAmountData": "0x",
+      "takingAmountData": "0x",
+      "predicate": "0x",
+      "makerPermit": "0x",
+      "preInteraction": "0x",
+      "postInteraction": "0x",
+      "customData": "0x"
+    },
+    "makerAsset": {
+      "val": "0xdd13e55209fd76afe204dbda4007c227904f0a81"
+    },
+    "takerAsset": {
+      "val": "0x779877a7b0d9e8603169ddbd7836e478b4624789"
+    },
+    "makingAmount": "1000000000000000000",
+    "takingAmount": "20000000000000000000",
+    "salt": "61776286579034638953831443258",
+    "maker": {
+      "val": "0x1c85f8ece715788c9167c212d432921e62f6c1c3"
+    },
+    "receiver": {
+      "val": "0x0000000000000000000000000000000000000000"
+    },
+    "makerTraits": {
+      "value": {
+        "value": "740400443170935238859464610683247417278276304896"
+      }
+    }
+  },
+  "signature": "0x6903be225f11695e7b6292a7ec104e3a0f26703ff47776fc7956e64497c7a1450791eb288f6e147e5f22b21731c8a14c897971f644704eadb393567ce41ce3aa1c",
+  "unlockTime": 1754158203
+}

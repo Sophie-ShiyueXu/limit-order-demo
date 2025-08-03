@@ -1,18 +1,29 @@
 {
-    "name": "limit-order-hardhat-template",
-    "version": "1.0.0",
-    "scripts": {
-      "compile": "npx hardhat compile",
-      "deploy": "npx hardhat run scripts/deploy.ts --network mumbai"
-    },
-    "devDependencies": {
-      "@nomicfoundation/hardhat-toolbox": "^2.0.0",
-      "@nomiclabs/hardhat-ethers": "^2.1.0",
-      "dotenv": "^16.0.3",
-      "ethers": "^5.7.2",
-      "hardhat": "^2.19.4",
-      "typescript": "^5.0.4",
-      "chai": "^4.3.4"
-    }
-  }
-  
+  "name": "limit-order-hardhat-template",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.ts --network mumbai"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "chai": "^4.3.4",
+    "dotenv": "^16.6.1",
+    "hardhat": "^2.19.4",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@1inch/limit-order-sdk": "^4.9.5-rc.0",
+    "ethers": "^6.14.0",
+    "ts-node": "^10.9.2"
+  },
+  "description": "🧪 测试方法\r 1. 安装依赖\r 如果你还没有安装 ethers 和 hardhat 相关的依赖，请运行以下命令：",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

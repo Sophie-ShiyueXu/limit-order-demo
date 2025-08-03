@@ -1,26 +1,19 @@
 import { HardhatUserConfig } from "hardhat/config";
-import "@nomiclabs/hardhat-ethers";
 import "@nomicfoundation/hardhat-toolbox";
 import * as dotenv from "dotenv";
 
 dotenv.config();
 
 const config: HardhatUserConfig = {
-  solidity: {
-    version: "0.8.20",  // 使用 Solidity 0.8.20 或你所需的版本
-    settings: {
-      optimizer: {
-        enabled: true, // 启用优化器
-        runs: 200
-      }
-    }
-  },
+  solidity: "0.8.20",
   networks: {
-    mumbai: {
-      url: process.env.RPC_URL || "",
+    sepolia: {
+      url: process.env.SEPOLIA_RPC || "",
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
     },
   },
 };
+// console.log("📡 读取到的 RPC URL 是:", process.env.SEPOLIA_RPC);
+
 
 export default config;

@@ -13,15 +13,42 @@ import * as Contracts from ".";
 declare module "hardhat/types/runtime" {
   interface HardhatEthersHelpers extends HardhatEthersHelpersBase {
     getContractFactory(
-      name: "LimitOrderTest",
+      name: "CustomMatcher",
       signerOrOptions?: ethers.Signer | FactoryOptions
-    ): Promise<Contracts.LimitOrderTest__factory>;
+    ): Promise<Contracts.CustomMatcher__factory>;
+    getContractFactory(
+      name: "ILimitOrderProtocol",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.ILimitOrderProtocol__factory>;
+    getContractFactory(
+      name: "ITimeLockHook",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.ITimeLockHook__factory>;
+    getContractFactory(
+      name: "TimeLockHook",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.TimeLockHook__factory>;
 
     getContractAt(
-      name: "LimitOrderTest",
+      name: "CustomMatcher",
       address: string,
       signer?: ethers.Signer
-    ): Promise<Contracts.LimitOrderTest>;
+    ): Promise<Contracts.CustomMatcher>;
+    getContractAt(
+      name: "ILimitOrderProtocol",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.ILimitOrderProtocol>;
+    getContractAt(
+      name: "ITimeLockHook",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.ITimeLockHook>;
+    getContractAt(
+      name: "TimeLockHook",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.TimeLockHook>;
 
     // default types
     getContractFactory(
