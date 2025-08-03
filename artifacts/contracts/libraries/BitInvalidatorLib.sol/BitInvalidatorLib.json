@@ -1,0 +1,16 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "BitInvalidatorLib",
+  "sourceName": "contracts/libraries/BitInvalidatorLib.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "BitInvalidatedOrder",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea2646970667358221220b7ab25d266c918feab0de4a6277756a340aa1c4f72ea7feaa2c993ca7089de4064736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220b7ab25d266c918feab0de4a6277756a340aa1c4f72ea7feaa2c993ca7089de4064736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

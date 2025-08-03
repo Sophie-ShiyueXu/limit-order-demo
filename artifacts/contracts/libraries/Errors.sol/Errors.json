@@ -1,0 +1,21 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Errors",
+  "sourceName": "contracts/libraries/Errors.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "ETHTransferFailed",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InvalidMsgValue",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea2646970667358221220cc548b89294f2002ed6affad573c4beb7bf8f78cdefaf3b2816da41556cbecb564736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220cc548b89294f2002ed6affad573c4beb7bf8f78cdefaf3b2816da41556cbecb564736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

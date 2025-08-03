@@ -1,0 +1,16 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "OffsetsLib",
+  "sourceName": "contracts/libraries/OffsetsLib.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "OffsetOutOfBounds",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea26469706673582212202b4a5b73f74003f08eecea320d5af8896c6f64ebe0aceac6b4605d1ced7b9aa464736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea26469706673582212202b4a5b73f74003f08eecea320d5af8896c6f64ebe0aceac6b4605d1ced7b9aa464736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

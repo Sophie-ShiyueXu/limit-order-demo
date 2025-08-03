@@ -1,0 +1,16 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "RemainingInvalidatorLib",
+  "sourceName": "contracts/libraries/RemainingInvalidatorLib.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "RemainingInvalidatedOrder",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea2646970667358221220fd64bca3aedc6e763b72cc3c6bf7168ce8e85f956a371ae6c0f0181824b3524764736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220fd64bca3aedc6e763b72cc3c6bf7168ce8e85f956a371ae6c0f0181824b3524764736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

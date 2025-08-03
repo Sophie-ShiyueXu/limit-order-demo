@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "TakerTraitsLib",
+  "sourceName": "contracts/libraries/TakerTraitsLib.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea26469706673582212206e7d4ce1c1a82f7ff0fffe3bdfcae9743279d21918808622d4a42b340695c7b564736f6c63430008170033",
+  "deployedBytecode": "0x600080fdfea26469706673582212206e7d4ce1c1a82f7ff0fffe3bdfcae9743279d21918808622d4a42b340695c7b564736f6c63430008170033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
